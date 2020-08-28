@@ -2,12 +2,7 @@
 <html>
 <head>
 <style>
-  div{
-    height: auto;
-    width: 370px;
-    margin: 50px 100px;
-    border: 3px solid black;
-  }
+
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -32,12 +27,18 @@ span{
 .hidden{
   visibility: hidden;
 }
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 </style>
 </head>
 <body>
 
 <h1><strong><em>This is a heading</em></strong></h1>
-
+<div><img src="download.jpg"></div>
 <span>A display property with a value of "block" results in</span> <span>a line break between the two elements.</span>
 <div><img src="download.jpg"></div>
 <table style="width:100%">
